@@ -13,3 +13,263 @@ h2{
     line-height: 30px;
     color: #32425c;
 }
+ul,figure,h4, body,p{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    outline: 1px solid green;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Оформление index.html */
+.main-header{
+    padding-bottom: 60px;
+    outline: 1px solid red;
+}
+.additional-menu{
+    outline: 1px solid blue;
+    margin-bottom: 45px;
+}
+.logo, .search-form, .bookmarks, .cart, .make-order{
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-form input{
+    margin-right: 170px;
+}
+.bookmarks, .cart{
+    margin-right: 30px;
+}
+.header-promo{
+    margin-bottom: 45px;
+    font-size: 0;
+}
+.header-promo-left, .header-promo-middle, .header-promo-right{
+    width: 300px;
+    display: inline-block;
+    outline: 1px solid purple;   
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size:17px;
+}
+.header-promo-right{
+    margin-right: 0;
+}
+.main-menu{
+    outline: 1px solid blue;
+    margin-bottom: 60px;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu ul li a{
+    padding: 19px 33.7px;
+    font-size: 17px;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.materials, .tools, .vehicle, .slider, .deals, .delivery{
+    display:block;
+    float:left;
+}
+.materials, .tools, .vehicle, .deals, .delivery{
+    width: 300px;
+    height: 120px;
+    margin-right: 20px;
+    outline: 1px solid pink;
+}
+.vehicle, .deals, .delivery{
+    margin-right: 0;
+    margin-bottom: 25px;
+}
+.slider{
+    margin-right:20px;
+}
+.slider-content{
+    position: relative;
+}
+.slider-info{
+    position: absolute;
+}
+.slider-control{
+    position: absolute;
+    bottom: 20px;
+}
+.items-header{
+    outline: 1px solid grey;
+    width:940px;
+}
+.items-header h2{
+    float: left;
+}
+.items-header a{
+    float: right;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.popular-items{
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.item{
+    width: 220px;
+    min-height: 231px;
+    display: inline-block;
+    outline: 1px solid purple;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    vertical-align: top;
+}
+.item:last-child{
+    margin-right: 0;
+}
+.popular-brands{
+    font-size: 0;
+    text-align: center;
+    outline: 1px solid grey;
+    margin-bottom: 85px;
+}
+.brand-logo{
+    width: 220px;
+    min-height: 145px;
+    display: inline-block;
+    outline: 1px solid grey;
+    vertical-align: top;
+    text-align: center;
+    margin: 20px 20px 0 0;
+}
+.brand-logo:nth-child(4n+5){
+    margin-right: 0;
+}
+.service{
+    outline: 1px solid red;
+    padding-bottom: 100px;
+    padding-top: 65px;
+    margin-bottom: 80px;
+}
+.service-description{
+    width: 400px;
+    font-size: 13px;
+}
+.service-selected-right{
+    float: right;
+    width: 300px;
+    outline: 1px solid blue;
+}
+.service-selected-left{
+    float: left;
+    width: 240px;
+    outline: 1px solid blue;
+    margin-right: 80px;
+}
+.about{
+    margin-bottom: 85px;
+}
+.about-left{
+    width: 520px;
+    float:left;
+    outline: 1px solid grey;
+}
+.contact-right{
+    width: 300px;
+    float: right;
+    outline: 1px solid grey;
+}
+.top-footer{
+    outline: 1px solid orange;
+    padding-bottom: 65px;
+}
+.top-footer-left{
+    width: 380px;
+    float: left;
+}
+.top-footer-right{
+    width: 550px;
+    float: right;
+}
+.top-footer-right nav li{
+    display: inline-block;
+}
+.bottom-footer section{
+    width: 200px;
+    margin-right: 35px;
+    float:left;
+}
+.bottom-footer{
+    outline: 1px solid red;
+    padding: 40px 0 30px;
+}
+
+/* Оформление catalog.html */
+.breadcrumbs ul li{
+    float: left;
+    margin-right: 20px;
+}
+main h1{
+    outline: 1px solid red;
+    padding: 30px 0;
+}
+.filter{
+    width: 220px;
+    float: left;
+    outline: 1px solid orange;
+}
+.sort-line{
+    outline: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.sort-line div{
+    display: inline-block;
+}
+.items-list{
+    width: 700px;
+    float: right;
+}
+.item {
+    text-align: center;
+    text-decoration: none;
+    min-height: 272px;
+}
+.item a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.item-hover{
+    display: none;
+}
+.item-old-price{
+    text-decoration: line-through;
+}
+.items-listing{
+    font-size: 0;
+    margin-bottom: 50px;
+}
+.items-listing .item:nth-child(3n){
+    margin-right: 0;
+}
+.items-listing .item{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.pagination li{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.about-item{
+    padding: 65px 130px;
+    outline: 1px solid blue;
+}
