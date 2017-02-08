@@ -1,7 +1,8 @@
 body{
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Cuprum','Tahoma', 'Geneva', sans-serif;
     font-size: 17px;
     line-height: 17px;
+    background-color: lightgray;
 }
 
 h1{
@@ -26,7 +27,7 @@ ul li{
     padding: 0 10px;
     outline: 1px solid green;
 }
-.clearfix{
+.clearfix:after{
     content: "";
     display: table;
     clear: both;
@@ -40,6 +41,7 @@ ul li{
 .additional-menu{
     outline: 1px solid blue;
     margin-bottom: 45px;
+    background-color: darkblue;
 }
 .logo, .search-form, .bookmarks, .cart, .make-order{
     display: inline-block;
@@ -55,10 +57,12 @@ ul li{
     margin-bottom: 45px;
     font-size: 0;
 }
+.main-header{
+        background-color: cornflowerblue;
+}
 .header-promo-left, .header-promo-middle, .header-promo-right{
     width: 300px;
-    display: inline-block;
-    outline: 1px solid purple;   
+    display: inline-block; 
     vertical-align: middle;
     margin-right: 20px;
     font-size:17px;
@@ -66,9 +70,11 @@ ul li{
 .header-promo-right{
     margin-right: 0;
 }
+.quick-access{
+    
+}
 .main-menu{
-    outline: 1px solid blue;
-    margin-bottom: 60px;
+    background-color: lightblue;
 }
 .main-menu ul li{
     float: left;
@@ -79,22 +85,24 @@ ul li{
     line-height: 17px;
     display: inline-block;
 }
-
-.materials, .tools, .vehicle, .slider, .deals, .delivery{
-    display:block;
-    float:left;
+.quick-access{
+    margin-top: 60px;
 }
-.materials, .tools, .vehicle, .deals, .delivery{
+.quick-access-box{
     width: 300px;
     height: 120px;
     margin-right: 20px;
     outline: 1px solid pink;
+    display:block;
+    float:left;
 }
 .vehicle, .deals, .delivery{
     margin-right: 0;
     margin-bottom: 25px;
 }
 .slider{
+    display:block;
+    float:left;
     margin-right:20px;
 }
 .slider-content{
@@ -109,7 +117,6 @@ ul li{
 }
 .items-header{
     outline: 1px solid grey;
-    width:940px;
 }
 .items-header h2{
     float: left;
@@ -159,6 +166,7 @@ ul li{
     padding-bottom: 100px;
     padding-top: 65px;
     margin-bottom: 80px;
+    background-color: lightpink;
 }
 .service-description{
     width: 400px;
@@ -167,13 +175,11 @@ ul li{
 .service-selected-right{
     float: right;
     width: 300px;
-    outline: 1px solid blue;
 }
 .service-selected-left{
     float: left;
     width: 240px;
-    outline: 1px solid blue;
-    margin-right: 80px;
+    margin-right: 120px;
 }
 .about{
     margin-bottom: 85px;
@@ -189,7 +195,7 @@ ul li{
     outline: 1px solid grey;
 }
 .top-footer{
-    outline: 1px solid orange;
+    background-color: aliceblue;
     padding-bottom: 65px;
 }
 .top-footer-left{
@@ -200,7 +206,7 @@ ul li{
     width: 550px;
     float: right;
 }
-.top-footer-right nav li{
+.top-footer-right li{
     display: inline-block;
 }
 .bottom-footer section{
@@ -209,7 +215,7 @@ ul li{
     float:left;
 }
 .bottom-footer{
-    outline: 1px solid red;
+    background-color: bisque;
     padding: 40px 0 30px;
 }
 
@@ -271,5 +277,5 @@ main h1{
 }
 .about-item{
     padding: 65px 130px;
-    outline: 1px solid blue;
+    background-color: aquamarine;
 }
