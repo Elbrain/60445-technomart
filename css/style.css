@@ -168,9 +168,8 @@ body{
     font-size: 17px;
 }
 
-
 .search-form input:focus{
-    background: white url("../img/catalog/icon-search-focus.png") no-repeat 20px 10px;
+    background: white url("../img/catalog/icon-search-focus.png") no-repeat 20px 13px;
     color: black;
     font-family: 'Cuprum','Tahoma', sans-serif;
     font-size: 17px;
@@ -203,6 +202,10 @@ body{
     background: #212a3a;
 }
 
+.cart-full:hover{
+    background-color: #ca2c37;
+}
+
 .style-menu:hover::before{
     opacity: 1;
 }
@@ -221,7 +224,7 @@ body{
     height: 16px;
     width: 16px;
     left: 10px;
-    top 0;
+    top:14px;
     opacity: 0.4;
 }
 
@@ -240,7 +243,7 @@ body{
 .search-form::before{
     background: url("../img/icon-search.png") no-repeat;
     position: absolute;
-    top: 10px;
+    top: 13px;
     left: 20px;
 }
 
@@ -343,7 +346,7 @@ body{
 }
 
 .main-menu  a{
-    padding: 21px 33px;
+    padding: 21px 33.6px;
     font-size: 17px;
     line-height: 17px;
     display: block;
@@ -444,7 +447,6 @@ body{
 	text-align:center;
     float: left;
     margin-right: 20px;
-    background-color: #e5e5e5;
 }
 
 .slider-check {
@@ -559,6 +561,7 @@ body{
 
 .item{
     width: 220px;
+    height: 320px;
     display: inline-block;
     margin-right: 20px;
     box-sizing: border-box;
@@ -566,7 +569,8 @@ body{
     vertical-align: top;
     margin-bottom: 20px;
     border: 1px solid #e5e5e5;
-    height: 320px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    text-align: center;
 }
 
 .item:last-child{
@@ -648,31 +652,53 @@ body{
     height: 260px;
 }
 
-.service-delivery{
-    
+.service-select input[type="radio"]{
+    display: none;
 }
 
+
+#service-check-1:checked ~ .service-selection .service-delivery{
+	display: block;
+}
+#service-check-2:checked ~ .service-selection .service-guarantee{
+	display: block;
+}
+#service-check-3:checked ~ .service-selection .service-credit{
+	display: block;
+}
+.service-selected-right{
+    display: none;
+}
+#service-check-1:checked ~ .service-selected-left .active-delivery{
+    color: #32425c;
+    background: white;
+    border: none;
+}
+#service-check-2:checked ~ .service-selected-left .active-guarantee{
+    color: #32425c;
+    background: white;
+    border: none;
+}
+#service-check-3:checked ~ .service-selected-left .active-loan{
+    color: #32425c;
+    background: white;
+    border: none;
+}
 .service-delivery::after{
+    content: "";
     background: url(../img/index/lory.png) no-repeat;
     top: 35%;
     left: 45%;
 }
-
-.service-guarantee{
-    display: none;
-}
-
 .service-guarantee::after{
+    content: "";
     background: url(../img/index/guarantee.png) no-repeat;
     top: 30%;
     left:50%;
 }
 
-.service-credit{
-    display: none;
-}
-
 .service-credit::after{
+    content: "";
     background: url(../img/index/credit.png) no-repeat;
     top: 44%;
     left: 45%;
@@ -709,7 +735,7 @@ body{
     
 }
 
-.service-selected-left li{
+.service-selected-left label{
     background-color: #32425c;
     font-size: 21px;
     line-height: 21px;
@@ -719,16 +745,11 @@ body{
     border-top: 1px solid #405069;
     color: white;
     cursor: pointer;
+    display: block;
 }
 
-.non-active-service:hover{
+.service-selected-left label:hover{
     background-color: #293449;
-}
-
-.service-selected-left .active-service{
-    color: #32425c;
-    background: white;
-    border: none;
 }
 
 .about{
@@ -999,6 +1020,7 @@ body{
 }
 
 .breadcrumbs ul li{
+    font-family: 'PT Sans', 'Arial', sans-serif;
     display: inline-block;
     margin-right: 20px;
     padding-right: 20px;
@@ -1205,6 +1227,7 @@ body{
     border-radius: 3px;
     font-size: 13px;
     text-transform: uppercase;
+    font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 .sort-line>a{
@@ -1266,12 +1289,7 @@ body{
     float: right;
 }
 
-.item {
-    text-align: center;   
-}
-
 .item a{
-    font-family: 'PT Sans', 'Arial', sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
@@ -1391,6 +1409,7 @@ body{
 
 .item-old-price{
     text-decoration: line-through;
+    color: #999999;
 }
 
 .items-listing{
