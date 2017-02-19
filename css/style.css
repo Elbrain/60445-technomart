@@ -1,5 +1,5 @@
 body{
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
     background-color: lightgray;
     background-color: white;
@@ -91,7 +91,6 @@ body{
     border-bottom:5px solid #8e1e26;
 }
 
-
 .logo-footer{
     font-size: 30px;
     line-height: 30px;
@@ -122,56 +121,56 @@ body{
 
 .search-form input::-webkit-input-placeholder {
     color: white;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:-moz-placeholder {
     color: white; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input::-moz-placeholder {
     color: white; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:-ms-input-placeholder {
     color: white; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:focus::-webkit-input-placeholder {
     color: black;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:focus:-moz-placeholder {
     color: black; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:focus::-moz-placeholder {
     color: black; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:focus:-ms-input-placeholder {
     color: black; 
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
 .search-form input:focus{
     background: white url("../img/catalog/icon-search-focus.png") no-repeat 20px 13px;
     color: black;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 17px;
 }
 
@@ -412,26 +411,26 @@ body{
 }
 
 .materials{
-    background: url(../img/index/material.png) no-repeat 84% 55%,
-                url(../img/new.png) no-repeat 100% 0;
+    background: url("../img/index/material.png") no-repeat 84% 55%,
+                url("../img/new.png") no-repeat 100% 0;
     background-color: #f6b22d;
 }
 
 .tools{
     
-    background: #4aafde url(../img/index/tools.png) no-repeat 90% 50%;
+    background: #4aafde url("../img/index/tools.png") no-repeat 90% 50%;
 }
 
 .vehicle{
-    background: #cc79d1 url(../img/index/venihcle.png) no-repeat 85% 50%;
+    background: #cc79d1 url("../img/index/venihcle.png") no-repeat 85% 50%;
 }
 
 .deals{
-    background: #85d179 url(../img/index/deals.png) no-repeat 80% 50%;
+    background: #85d179 url("../img/index/deals.png") no-repeat 80% 50%;
 }
 
 .delivery{
-    background: #f6b22d url(../img/index/delivery.png) no-repeat 85% 50%;
+    background: #f6b22d url("../img/index/delivery.png") no-repeat 85% 50%;
 }
 
 .vehicle, .deals, .delivery{
@@ -511,7 +510,7 @@ body{
 
 .slider-info p{
     position: absolute;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 24px;
     z-index: 10;
@@ -569,7 +568,7 @@ body{
     vertical-align: top;
     margin-bottom: 20px;
     border: 1px solid #e5e5e5;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     text-align: center;
 }
 
@@ -629,7 +628,7 @@ body{
     margin: 0;
     font-size: 13px;
     line-height: 24px;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .service-delivery p{
@@ -691,20 +690,20 @@ body{
 }
 .service-delivery::after{
     content: "";
-    background: url(../img/index/lory.png) no-repeat;
+    background: url("../img/index/lory.png") no-repeat;
     top: 33%;
     left: 40%;
 }
 .service-guarantee::after{
     content: "";
-    background: url(../img/index/guarantee.png) no-repeat;
+    background: url("../img/index/guarantee.png") no-repeat;
     top: 30%;
     left:55%;
 }
 
 .service-credit::after{
     content: "";
-    background: url(../img/index/credit.png) no-repeat;
+    background: url("../img/index/credit.png") no-repeat;
     top: 34%;
     left: 35%;
 }
@@ -782,7 +781,7 @@ body{
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 23px;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .about-left .red-btn{
@@ -1010,13 +1009,13 @@ body{
     content: "";
     float: right;
     display: block;
-    background: url(../img/icon-logout.png) no-repeat 28px 15px;
+    background: url("../img/icon-logout.png") no-repeat 28px 15px;
     width: 59px;
     height: 44px;
 }
 
 .username-exit:hover{
-    background: url(../img/icon-logout-h.png) no-repeat 28px 15px;
+    background: url("../img/icon-logout-h.png") no-repeat 28px 15px;
 }
 
 .header-user{
@@ -1047,7 +1046,7 @@ body{
 }
 
 .breadcrumbs ul li{
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     display: inline-block;
     margin-right: 20px;
     padding-right: 20px;
@@ -1066,7 +1065,7 @@ body{
     position: absolute;
     width: 15px;
     height: 12px;
-    background: url(../img/icon-home.png) no-repeat;
+    background: url("../img/icon-home.png") no-repeat;
     bottom: 3px;
     left: 0%;
 }
@@ -1082,7 +1081,7 @@ body{
     position: absolute;
     width: 8px;
     height: 12px;
-    background: url(../img/icon-right.png) no-repeat;
+    background: url("../img/icon-right.png") no-repeat;
     bottom: 3px;
     left: 95%;
 }
@@ -1098,7 +1097,7 @@ body{
 .filter{
     width: 220px;
     float: left;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 .filter h3{
     border-top: 1px solid #e5e5e5;
@@ -1200,7 +1199,7 @@ body{
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     cursor: pointer;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .filter input[type="submit"]:hover{
@@ -1227,7 +1226,7 @@ body{
     height: 25px;
     width: 27px;
     margin: 5px 8px -8px 0;
-    background-image: url(../img/catalog/download.png);
+    background-image: url("../img/catalog/download.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -1264,7 +1263,7 @@ body{
     border-radius: 3px;
     font-size: 13px;
     text-transform: uppercase;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .sort-line>a{
@@ -1364,14 +1363,14 @@ body{
     position: absolute;
     top:0;
     left: 100%;
-    background: url(../img/new.png) no-repeat;
+    background: url("../img/new.png") no-repeat;
     margin-left: -60px;
     width: 60px;
     height: 59px;
 }
 
 .item-price::after {
-    content: ''; 
+    content: ""; 
     position: absolute;
     right: -38px;
     top: 0;
@@ -1409,7 +1408,7 @@ body{
     border-bottom: 3px solid #367315;
     text-transform: uppercase;
     position: relative;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
 }
 
 .item .btn-buy::before{
@@ -1490,7 +1489,7 @@ body{
     text-decoration: none;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .pagination a:hover{
@@ -1534,7 +1533,7 @@ body{
     font-size: 13px;
     line-height: 24px;
     margin: 0;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     word-spacing: 1px;
 }
 
@@ -1563,7 +1562,7 @@ body{
 
 .modal-contact-us p{
     margin: 0;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 18px;
     margin-bottom: 12px;
     display: inline-block;
@@ -1578,7 +1577,7 @@ body{
     box-shadow: none;
     border: 2px solid #d7dcde;
     padding: 8px 20px;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
@@ -1601,56 +1600,56 @@ body{
     padding: 0;
     border: 2px solid #d7dcde;
     border-radius: 3px;
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
     padding: 8px 20px;
 }
 
 .modal-contact-us textarea::-webkit-input-placeholder{
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-us textarea::-moz-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-us textarea:-moz-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-us textarea:-ms-input-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-wrapper input::-webkit-input-placeholder{
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999; 
 }
 
 .modal-contact-wrapper input::-moz-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-wrapper input:-moz-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
 
 .modal-contact-wrapper input:-ms-input-placeholder {
-    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     color: #999999;
 }
@@ -1664,7 +1663,7 @@ body{
 .modal-contact-us .btn-form{
     width: 100%;
     border: none;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     font-size: 14px;
     margin: 35px 0 35px;
     color: white;
@@ -1726,7 +1725,7 @@ body{
 .modal-cart-item p::before{
     content: "";
     position: absolute;
-    background: url(../img/green-yes.png) no-repeat;
+    background: url("../img/green-yes.png") no-repeat;
     top: -15px;
     left: 0;
     width: 66px;
@@ -1746,7 +1745,7 @@ body{
     border-radius: 3px;
     background-color: white;
     color:black;
-    font-family: 'Cuprum','Tahoma', sans-serif;
+    font-family: "Cuprum","Tahoma", sans-serif;
     padding: 11px 0;
     text-transform: uppercase;
     line-height: 18px;
