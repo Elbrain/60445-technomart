@@ -1,11 +1,10 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700" rel="stylesheet">
         <title>Техномарт</title>
     </head>
     <body>
@@ -26,7 +25,7 @@
             <div class="wrapper">
                 <div class="header-promo clearfix">
                     <div class="header-promo-left">
-                        <p>Интернет магазин строительных материалов и инструментов для ремонта</p>
+                        <p>Интернет магазин строительных материалов<br>и инструментов для ремонта</p>
                     </div>
                     <div class="header-promo-middle">
                         <a href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
@@ -65,7 +64,7 @@
                         <li><a>Перфараторы</a></li>
                     </ul>
                 </nav>
-                <header class="items-header clearfix"><h2>Перфараторы</h2></header>
+                <div class="items-header clearfix"><h2>Перфараторы</h2></div>
                 <aside class="filter">
                     <div class="sort-line">
                     <span>Фильтр:</span>
@@ -290,5 +289,18 @@
                 </section>
             </div>
         </footer>
+        <div class="modal-cart-item modal-window">
+            <div class="modal-contact-wrapper">
+                <p>Товар добавлен в корзину!</p>
+            </div>
+            <div class="modal-contact-footer">
+                <div class="modal-contact-wrapper">
+                    <a class="red-btn modal-button" href="#">Оформить заказ</a>
+                    <button class="modal-button button-transperent">Продолжить покупки</button>
+                    <button class="modal-close" type="button" title="Закрыть">Закрыть</button>
+                </div>
+            </div>
+            <div class="modal-overlay"></div>
+        </div>
     </body>
 </html>
