@@ -663,29 +663,29 @@ body{
 }
 
 
-#service-check-1:checked ~ .service-selection .service-delivery{
+.service-check-1:checked ~ .service-selection .service-delivery{
 	display: block;
 }
-#service-check-2:checked ~ .service-selection .service-guarantee{
+.service-check-2:checked ~ .service-selection .service-guarantee{
 	display: block;
 }
-#service-check-3:checked ~ .service-selection .service-credit{
+.service-check-3:checked ~ .service-selection .service-credit{
 	display: block;
 }
 .service-selected-right{
     display: none;
 }
-#service-check-1:checked ~ .service-selected-left .active-delivery{
+.service-check-1:checked ~ .service-selected-left .active-delivery{
     color: #32425c;
     background: white;
     border: none;
 }
-#service-check-2:checked ~ .service-selected-left .active-guarantee{
+.service-check-2:checked ~ .service-selected-left .active-guarantee{
     color: #32425c;
     background: white;
     border: none;
 }
-#service-check-3:checked ~ .service-selected-left .active-loan{
+.service-check-3:checked ~ .service-selected-left .active-loan{
     color: #32425c;
     background: white;
     border: none;
