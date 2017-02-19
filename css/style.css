@@ -299,7 +299,7 @@ body{
     color: black;
     text-decoration: none;
     background: white;
-    padding: 14px 25px;
+    padding: 14px 24px;
 }
 .header-promo-right .log-in{
     padding-left: 50px;
@@ -313,7 +313,7 @@ body{
     height: 16px;
     width: 20px;
     background: url("../img/icon-login.png") no-repeat;
-    left: 18px;
+    left: 14px;
     top 15px;
     opacity: 0.4;
 }
@@ -333,7 +333,7 @@ body{
 
 .main-menu ul{
     margin: 0;
-    padding: 0 20px;
+    padding: 0 25px;
     background-color: #32425c;
     border-bottom: 5px solid #293449;
     font-size: 0;
@@ -913,10 +913,12 @@ body{
 
 .social-btn-vk{
     background: #212a3a url("../img/vk.png") no-repeat center;
+    margin-left: 10px
 }
 
 .social-btn-fb{
     background: #212a3a url("../img/fb.png") no-repeat center;
+    margin: 0px -2px;
 }
 
 .social-btn-inst{
@@ -954,12 +956,12 @@ body{
 }
 
 .bottom-footer .bottom-footer-copyright-1{
-    margin-left: 5px
+    margin-left: 3px
 }
 
 .bottom-footer .bottom-footer-copyright-2{
     float: right;
-    max-width: 16px;
+    max-width: 160px;
     margin-right: 13px;
 }
 
@@ -984,8 +986,8 @@ body{
 
 .username-link{
     display: inline-block;
-    padding: 13px 0 13px 55px;
-    background:url("../img/index/icon-user.png") no-repeat 18px 14px;
+    padding: 15px 0 15px 48px;
+    background:url("../img/index/icon-user.png") no-repeat 14px 14px;
 }
 
 .username a:active{
@@ -997,27 +999,31 @@ body{
     color: #32425c;
 }
 
+.header-promo-right .head-user-position{
+    margin-right:70px;
+}
+
 .username-link:hover{
-    background:url("../img/index/icon-user-1.png") no-repeat 18px 14px;
+    background:url("../img/index/icon-user-1.png") no-repeat 14px 14px;
 }
 
 .username-exit{
     content: "";
     float: right;
     display: block;
-    background: url(../img/icon-logout.png) no-repeat 18px 15px;
+    background: url(../img/icon-logout.png) no-repeat 28px 15px;
     width: 59px;
     height: 44px;
 }
 
 .username-exit:hover{
-    background: url(../img/icon-logout-h.png) no-repeat 18px 15px;
+    background: url(../img/icon-logout-h.png) no-repeat 28px 15px;
 }
 
 .header-user{
     font-size: 16px;
     color: #32425c;
-    margin:  0 15px;
+    margin: 5px 7px 0 7px;
     display: inline-block;
 }
 
@@ -1032,7 +1038,7 @@ body{
 }
 
 .breadcrumbs{
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .breadcrumbs ul{
@@ -1069,6 +1075,7 @@ body{
 .breadcrumbs a{
     text-decoration: none;
     color: black;
+    margin-left: 3px;
 }
 
 .breadcrumbs li::after{
@@ -1085,6 +1092,10 @@ body{
     content: none;
 }
 
+.filter form{
+    margin-top: 11px;
+}
+
 .filter{
     width: 220px;
     float: left;
@@ -1093,26 +1104,27 @@ body{
 .filter h3{
     border-top: 1px solid #e5e5e5;
     margin: 0;
-    padding: 20px 0;
+    padding: 18px 0 14px;
     font-size: 17px;
     text-transform: uppercase;
 }
 .price-filter h4{
     font-size: 17px;
-    line-height: 17px;
+    text-transform: uppercase;
+    line-height: 30px;
     margin: 0 0 15px;
 }
 
 .price-filter {
     position: relative;
     font-size: 16px;
-    padding: 0 0 40px;
+    padding: 0 0 27px;
 }
 
 .range-controls {
     position: relative;
     height: 80px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 30px;
     background: #f7f3ec;
     overflow: hidden;
@@ -1150,14 +1162,9 @@ body{
     white-space: nowrap;
 }
 
-.price-controls .min-price {
-    margin-right: 5px;
-}
-
 .price-controls input {
-    width: 70px;
-    padding: 8px 5px;
-    margin-left: 5px;
+    width: 87px;
+    padding: 8px 8px;
     border: none;
     background: #f7f3ec;
     font-size: 17px;
@@ -1170,22 +1177,26 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 24px;
+    font-size: 15px;
 }
 
 .brand-filter li, .power-filter li{
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 
 .filter input[type="submit"]{
     width: 140px;
     padding: 11px 0;
-    margin-top: 60px;
+    font-size: 13px;
+    margin-top: 53px;
     color: black;
     background: white;
     text-transform: uppercase;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     cursor: pointer;
+    font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 .filter input[type="submit"]:hover{
@@ -1211,7 +1222,7 @@ body{
     display: inline-block;
     height: 25px;
     width: 27px;
-    margin: 5px 5px -9px; 0;
+    margin: 5px 8px -8px 0;
     background-image: url(../img/catalog/download.png);
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -1243,7 +1254,7 @@ body{
 }
 
 .sort-line{
-    margin-bottom: 20px;
+    margin:0;
     padding: 12px 20px;
     background: #f7f3ec;
     border-radius: 3px;
@@ -1437,7 +1448,8 @@ body{
 
 .items-listing{
     font-size: 0;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    margin-top:20px;
 }
 
 .items-listing .item:nth-child(3n){
@@ -1445,12 +1457,13 @@ body{
 }
 
 .pagination{
-    margin: 0 0 50px;
+    margin: 0 0 59px;
     padding: 0;
 }
 
 .pagination li{
     display: inline-block;
+    margin-right: 5px;
 }
 
 .pagination a{
@@ -1486,19 +1499,20 @@ body{
 }
 
 .pagination-next{
-    width: 104px;
+    width: 109px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .about-item{
-    padding: 60px 0px;
+    padding: 60px 0 70px;
     background-color: #f2f6f8;
 }
 
 .about-item h2{
     font-size: 30px;
-    margin: 0 0 35px;
+    margin: 0 0 25px;
+    font-weight: normal;
 }
 
 .about-item p{
@@ -1506,6 +1520,7 @@ body{
     line-height: 24px;
     margin: 0;
     font-family: 'PT Sans', 'Arial', sans-serif;
+    word-spacing: 1px;
 }
 
 /* Модальные окна, поп-апы */
