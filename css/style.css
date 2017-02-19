@@ -214,7 +214,7 @@ body{
     background: #161d29;
 }
 
- .style-menu:hover::before + style-menu:active{
+ .style-menu:hover::before + .style-menu:active{
     opacity: 0.4;
 }
 
@@ -327,7 +327,6 @@ body{
 }
  
 .header-promo-right .btn:active{
-
     color: rgba(0,0,0, 0.3);
 }
 
@@ -1124,8 +1123,8 @@ body{
 .range-controls {
     position: relative;
     height: 80px;
-    margin-bottom: 10px;
-    padding: 0 30px;
+    margin-bottom: 9px;
+    padding: 0 20px;
     background: #f7f3ec;
     overflow: hidden;
 }
@@ -1139,7 +1138,7 @@ body{
 .range-controls .bar {
     height: 2px;
     background: #00ca74;
-    width: 70%;
+    width: 80%;
 }
 .range-controls .toggle {
     width: 4px;
@@ -1148,29 +1147,34 @@ body{
     background: #ababab;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 20px;
     cursor: pointer;
     border-radius: 50%;
     box-shadow: 0 2px 1px 0 #cfcfcf
 }        
 
 .range-controls .max-toggle {
-    left: 145px;
+    left: 160px;
 }
 
-.price-controls {
-    white-space: nowrap;
-}
 
 .price-controls input {
-    width: 87px;
-    padding: 8px 8px;
+    width: 94px;
+    padding: 8px 0;
     border: none;
     background: #f7f3ec;
     font-size: 17px;
     text-align: center;
     color: #283136;
     border-radius: 3px;
+}
+
+.min-price{
+    margin-right: 5px;
+}
+
+.max-price{
+    margin-left: 5px;
 }
 
 .brand-filter, .power-filter{
@@ -1267,9 +1271,19 @@ body{
     color: rgba(0,0,0, 0.3);
     text-decoration:none;
     border-bottom: 1px dotted #ee3643;
-    margin-left: 100px;
 }
 
+.sort-by-type{
+    margin-left: 67px;
+}
+
+.sort-by-price{
+    margin-left: 135px;
+}
+
+.sort-by-functional{
+    margin-left: 63px;
+}
 .sort-line>a:hover{
     color: rgba(0,0,0, 1);
     border-bottom: 1px solid #ee3643;
@@ -1304,7 +1318,7 @@ body{
 }
 
 .down-list{
-    margin-left: 20px;
+    margin-left: 15px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -1389,12 +1403,13 @@ body{
     color: white;
     text-decoration: none;
     background: #63a63e;
-    padding: 11px 0;
+    padding: 10px 0;
     border-radius: 3px;
     text-align: center;
     border-bottom: 3px solid #367315;
     text-transform: uppercase;
     position: relative;
+    font-family: 'Cuprum','Tahoma', sans-serif;
 }
 
 .item .btn-buy::before{
@@ -1432,8 +1447,8 @@ body{
 .item .btn-to-bookmark{
     background: white;
     width: 131px;
-    border: 2px solid #63a63e;
-    margin-top: 10px;
+    border: 3px solid #63a63e;
+    margin-top: 8px;
     color: black;
 }
 
